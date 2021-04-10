@@ -1,6 +1,5 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
 /* global */
 
 /*============ navbar start ==================*/
@@ -204,6 +203,7 @@ nav .mobile-view .nav-menu {
   left: 0;
   height: calc(100vh - 64px);
   overflow-y: scroll;
+  z-index: 2;
 }
 
 nav .mobile-view li.nav-item {
